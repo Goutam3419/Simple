@@ -1,0 +1,124 @@
+/* पूरे पेज की सेटिंग */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* पूरी स्क्रीन */
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+}
+
+/* Login Box */
+.container{
+
+    width:350px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+
+}
+
+/* Heading */
+h1{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+/* Label */
+
+label{
+
+    display:block;
+
+    margin-top:15px;
+
+    margin-bottom:5px;
+
+    font-weight:bold;
+
+}
+
+/* Input Box */
+
+input{
+
+    width:100%;
+
+    padding:10px;
+
+    border:1px solid #ccc;
+
+    border-radius:5px;
+
+    outline:none;
+
+}
+
+/* Input Focus */
+
+input:focus{
+
+    border-color:blue;
+
+}
+
+/* Button */
+
+button{
+
+    width:100%;
+
+    margin-top:20px;
+
+    padding:10px;
+
+    border:none;
+
+    background:blue;
+
+    color:white;
+
+    font-size:16px;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+
+/* Hover */
+
+button:hover{
+
+    background:darkblue;
+
+}
+
+/* Message */
+
+#message{
+
+    margin-top:15px;
+
+    text-align:center;
+
+    color:red;
+
+}
